@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Centered SVG Example</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background: #f9f9f9;
+      min-height: 100vh;
+    }
+    .svg-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="svg-container">
+    <!-- Example SVG: A simple blue circle -->
+    <svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg" aria-label="Centered SVG Graphic">
+      <circle cx="75" cy="75" r="60" fill="#3498db" stroke="#2980b9" stroke-width="8"/>
+    </svg>
+  </div>
+</body>
+</html>
